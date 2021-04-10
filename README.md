@@ -10,4 +10,4 @@ Part 2 : In the second part we do a detailed EDA post mapping the aggregated dat
 | Model version | ROC score | Kaggle performance (on test data) |
 | ------------- | ----------- | ----------------- |
 | Logistic regression (baseline) | 0.6303 | 0.6109 |
-| Logistic regression (After feature selection) | 0.7486 | 0.73506 |
+| Logistic regression (After feature selection) | 0.7486 | 0.7351 |
