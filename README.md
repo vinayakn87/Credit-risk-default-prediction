@@ -15,4 +15,4 @@ This is a repository for [Home Credit Default Risk](https://www.kaggle.com/c/hom
 ## Next steps & Future work
 1. Currently bureau data given as part of the competition has not been used in the model. We expect significant improvement in model performance post using bureau features.
 2. We can check if we can improve the current best model by trying some hyperparameter tuning and removing certain correlated features.
-3. Try advanced algorithms like Random forests and Gradient boosting (LightGBM implementation as it handles missing data) to see if it improves model performance any further.
+3. Try ensembling algorithms like Random forests and Gradient boosting (LightGBM implementation as it handles missing data) to see if it improves model performance any further.
