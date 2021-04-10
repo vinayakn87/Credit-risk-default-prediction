@@ -12,7 +12,7 @@ This is a repository for [Home Credit Default Risk](https://www.kaggle.com/c/hom
 | Logistic regression (baseline) | 0.6303 | 0.6109 |
 | Logistic regression (After feature selection) | 0.7486 | 0.7351 |
 
-## Next steps & Future work
+## Next steps & future work
 1. Currently bureau data given as part of the competition has not been used in the model. We expect significant improvement in model performance post using bureau features.
 2. We can check if we can improve the current best model by trying some hyperparameter tuning and removing certain correlated features.
 3. Try ensembling algorithms like Random forests and Gradient boosting (LightGBM implementation as it handles missing data) to see if it improves model performance any further.
