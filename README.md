@@ -7,6 +7,6 @@ Part 1 : We import all the datasets and do a basic exploratory analysis to under
 Part 2 : In the second part we do a detailed EDA post mapping the aggregated data on the training set. However, given the high number of features (213 numeric + categorical) we opt for a strategy of filtering certain unimportant features basis bivariate analysis using Weight of evidence (WOE) and Information value (IV) before doing EDA. We eliminate features with IV < 0.02 and then handle missing values and other quirks in the shortlisted features. We build a baseline logistic regression model using all these features to get a baseline ROC score. We then further improve this score by doing some more feature engineering & eliminating unimportant variables using RFECV (recursive feature elimination with cross validation). Refer **2. EDA & Baseline model with Logistic regression.ipynb** for this part.
 
 # Results & outcome
-|Model version|ROC score|Kaggle performance (on test data)|
-Logistic regression (baseline)|0.6306|0.61|
-Logistic regression (After feature selection)|0.74|0.61|
+| Model version | ROC score | Kaggle performance (on test data) |
+| Logistic regression (baseline) | 0.6306 | 0.61 |
+| Logistic regression (After feature selection) | 0.74 | 0.61 |
